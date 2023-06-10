@@ -153,6 +153,8 @@ body{ background-color:var(--Bg);
 .Context_Slider{
 	padding-left: 117px;
 	padding-top: 154px;
+	position: relative;
+
 }
 .Big_Text_Slider{
 	font-family: Montserrat;
@@ -192,6 +194,8 @@ body{ background-color:var(--Bg);
 	padding: 0px;
 	gap: 20px;
 	padding-left: 1079.17px;
+	bottom: 302px;
+	position: relative;
 }
 .slid{
 	background-color: var(--Light-grey);
@@ -204,4 +208,37 @@ body{ background-color:var(--Bg);
 	border-radius: 50%;
  	height: 24px;
  	width: 24px;
+}
+.Content{
+	padding-block-start: 176px ;
+	padding-block-end: 172px ;
+}
+.Name_see_all{
+	display: flex;
+	justify-content: space-between;
+}
+.TOP_text{
+	color: var(--black);
+	display: flex;
+	gap: 16px;
+	align-items: center;
+}
+.TOP-{
+	font-family: Montserrat;
+	font-size: 44px;
+	font-weight: 600;
+	text-align: left;
+}
+.-text{
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 400;
+	text-align: left;
+}
+.see_all_img{
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 20px;
+	display: flex;
+	gap: 16px;
 }
